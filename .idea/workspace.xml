@@ -4,32 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3f9c21-e826-4f2c-a9f2-9dde9fbc1559" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/db63690.Mgg7VA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/db63690.Mgg7VA.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="4473db48-ebcd-480b-8250-fe0a513104b0" name="Changes by Kilian" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/DB.sql" beforeDir="false" />
-    </list>
+    <list default="true" id="5d2375e9-95d5-4107-acc5-edd034cf765e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qCad1YnbhLeBF0bqA6Fams4MPm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
-    <property name="RunConfigurationTargetLRU" value="c66019d4-328c-4718-8d20-1e6d0cb0f00f" />
+    <property name="RunConfigurationTargetLRU" value="c66019d4-328c-4718-8d20-1e6d0cb0f00f&#10;8138c2b7-40cc-4ca5-abe3-7522a041a034" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -47,6 +44,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
   <component name="RunManager" selected="Database Script.view.sql">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -64,7 +63,7 @@
     <configuration name="DB.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/main/resources/DB.sql" />
       <script-mode>FILE</script-mode>
-      <data-source id="c66019d4-328c-4718-8d20-1e6d0cb0f00f" />
+      <data-source id="8138c2b7-40cc-4ca5-abe3-7522a041a034" />
       <method v="2" />
     </configuration>
     <configuration name="view.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
@@ -90,6 +89,14 @@
       <workItem from="1616586110942" duration="1031000" />
       <workItem from="1618393038327" duration="3965000" />
     </task>
+    <task id="LOCAL-00001" summary="Tables and Views code">
+      <created>1618395100410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618395100410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +112,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tables and Views code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tables and Views code" />
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
