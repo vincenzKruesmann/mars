@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3f9c21-e826-4f2c-a9f2-9dde9fbc1559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/db63690.Mgg7VA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/db63690.Mgg7VA.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mars.iml" afterDir="false" />
+    <list default="true" id="5d2375e9-95d5-4107-acc5-edd034cf765e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mars.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,16 +14,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qCad1YnbhLeBF0bqA6Fams4MPm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
-    <property name="RunConfigurationTargetLRU" value="c66019d4-328c-4718-8d20-1e6d0cb0f00f" />
+    <property name="RunConfigurationTargetLRU" value="c66019d4-328c-4718-8d20-1e6d0cb0f00f&#10;8138c2b7-40cc-4ca5-abe3-7522a041a034" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -46,13 +43,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,7 +59,7 @@
     <configuration name="DB.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/main/resources/DB.sql" />
       <script-mode>FILE</script-mode>
-      <data-source id="c66019d4-328c-4718-8d20-1e6d0cb0f00f" />
+      <data-source id="8138c2b7-40cc-4ca5-abe3-7522a041a034" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -94,5 +93,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
