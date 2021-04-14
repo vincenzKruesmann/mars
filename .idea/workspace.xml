@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3f9c21-e826-4f2c-a9f2-9dde9fbc1559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/db63690.Mgg7VA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/db63690.Mgg7VA.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/db63690.Mgg7VA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c66019d4-328c-4718-8d20-1e6d0cb0f00f/storage_v2/_src_/schema/db63690.Mgg7VA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mars.iml" afterDir="false" />
+    </list>
+    <list id="4473db48-ebcd-480b-8250-fe0a513104b0" name="Changes by Kilian" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/DB.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +35,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CodeWithMe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Database Script.view.sql">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -63,8 +67,14 @@
       <data-source id="c66019d4-328c-4718-8d20-1e6d0cb0f00f" />
       <method v="2" />
     </configuration>
+    <configuration name="view.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/view.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.view.sql" />
         <item itemvalue="Database Script.DB.sql" />
       </list>
     </recent_temporary>
@@ -77,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616586109727</updated>
-      <workItem from="1616586110942" duration="537000" />
+      <workItem from="1616586110942" duration="1031000" />
+      <workItem from="1618393038327" duration="3965000" />
     </task>
     <servers />
   </component>
@@ -94,5 +105,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
