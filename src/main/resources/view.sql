@@ -8,7 +8,7 @@ create or replace view essen_art_uebrig as
 select name, sum(gewicht) from essen_uebrig group by name;
 
 create or replace view forscher_mit_alter as
-select *, floor(datediff(geburtsdatum, current_date) / 365) as 'alter' from forscher;
+select *, floor(datediff(current_date, geburtsdatum) / 365) as 'alter' from forscher;
 
 create or replace view feld_status as
     select f.*, a.anbau_id from feld f
