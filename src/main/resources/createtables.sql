@@ -15,9 +15,7 @@ create or replace table forscher(
                                     geburtsdatum date,
                                     berufung text,
                                     ankunft_rakete_fk int,
-                                    abflug_rakete_fk int,
                                     constraint foreign key (ankunft_rakete_fk) references rakete (rakete_id),
-                                    constraint foreign key (abflug_rakete_fk) references rakete (rakete_id)
 );
 create or replace table fahrzeug(
                                     fahrzeug_id int primary key auto_increment,
