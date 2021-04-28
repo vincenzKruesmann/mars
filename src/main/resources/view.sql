@@ -1,7 +1,7 @@
 create or replace view essen_uebrig as
 select *, (essen.gewicht
-    - (select sum(gewicht) from essen_anbau where essen_fk = essen.essen_id)
-    - (select sum(gewicht) from essen_forscher where essen_fk = essen.essen_id)
+    - coalesce((select sum(gewicht) from essen_anbau where essen_fk = essen.essen_id), 0)
+    - coalesce((select sum(gewicht) from essen_forscher where essen_fk = essen.essen_id), 0)
     ) as uebrig from essen;
 
 create or replace view essen_art_uebrig as
