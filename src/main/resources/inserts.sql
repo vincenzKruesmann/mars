@@ -33,6 +33,45 @@ VALUES
 (3, '2030-06-27 17:00:00', 3, 3)
 ;
 
+INSERT INTO ernte(ernte.zeitpunkt, ernte.feld_fk, ernte.forscher_fk)
+VALUES
+('2030-09-13 10:00:00', 1, 3),
+('2030-09-15 09:00:00', 2, 3),
+('2030-10-02 15:00:00', 3, 1);
+
+INSERT INTO essen(essen.name, essen.kalorien, essen.gewicht, essen.ernte_fk, essen.rakete_fk)
+VALUES
+('Kartoffeln', 10, 50, null, 1),
+('Nudeln', 8, 25, null, 1),
+('Karotten', 4, 10, null, 1),
+('Erdbeeren', 15, 18, null, 1),
+('Karotten', 4, 10, 1, null),
+('Kartoffeln', 10, 15, 2, null),
+('Erdbeeren', 5, 18, 3, null),
+('Tomaten', 12, 10, null, 2),
+('Reis', 7, 20, null, 2),
+('Brot', 11, 20, null, 3)
+;
+
+INSERT INTO essen_anbau(essen_anbau.gewicht, essen_anbau.anbau_fk, essen_anbau.essen_fk)
+VALUES
+(5, 1, 1),
+(5, 2, 3),
+(10, 3, 4);
+;
+-- 34 auf 1, 22 auf 2, 1 auf 3, 3 auf 4, 15 auf 9, 10 auf 7, 12 auf 6, 9 auf 6
+INSERT INTO essen_forscher(essen_forscher.gewicht, essen_forscher.essen_fk, essen_forscher.forscher_fk)
+VALUES
+(5, 1, 1),
+(3, 2, 2),
+(6, 1, 3),
+(4, 3, 4),
+(5, 4, 5),
+(5, 9, 6),
+(8, 7, 7),
+(3, 6, 8),
+(1, 8, 9)
+;
 -- Es fehlen Ernte, Essen, Essen_Anbau, Essen_Forscher
 
 insert into fahrzeug (name, max_passagiere, ps) values
@@ -68,8 +107,8 @@ insert into forscher_auf_expedition (expedition_fk, forscher_fk, fahrzeug_fk) va
 (1, 4, 4),
 (1, 1, 4),
 (1, 2, 4),
-(1, 5, 4),
-(2, ),
-(3, ),
-(4, ),
-(5, );
+(1, 3, 4),
+(2, 1, 3),
+(3, 3, 1),
+(4, 2, 4),
+(5, 4, 2);
