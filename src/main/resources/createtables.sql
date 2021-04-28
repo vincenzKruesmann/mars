@@ -5,8 +5,7 @@ create or replace table rakete(
                                   landezeit datetime,
                                   lagerplatz int,
                                   passagiere int,
-                                  ankunftszeit datetime,
-                                  abflugzeit datetime
+                                  ankunftszeit datetime
 );
 create or replace table forscher(
                                     forscher_id int primary key auto_increment,
@@ -15,7 +14,7 @@ create or replace table forscher(
                                     geburtsdatum date,
                                     berufung text,
                                     ankunft_rakete_fk int,
-                                    constraint foreign key (ankunft_rakete_fk) references rakete (rakete_id),
+                                    constraint foreign key (ankunft_rakete_fk) references rakete (rakete_id)
 );
 create or replace table fahrzeug(
                                     fahrzeug_id int primary key auto_increment,

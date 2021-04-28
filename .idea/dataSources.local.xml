@@ -11,14 +11,9 @@
       <user-name>u63690</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="@" />
+          <node kind="schema" negative="1" />
         </introspection-scope>
       </schema-mapping>
-    </data-source>
-    <data-source name="User Data Source" uuid="cfb96e35-037e-4563-8ab8-2890fb31680e">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="UNKNOWN" exact-version="0" />
-      <secret-storage>master_key</secret-storage>
-      <schema-mapping />
     </data-source>
   </component>
 </project>
