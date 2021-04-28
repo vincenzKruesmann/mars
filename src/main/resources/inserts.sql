@@ -5,9 +5,9 @@ INSERT INTO rakete(rakete.rakete_id, rakete.name, rakete.ps, rakete.lagerplatz,
     ( 2, 'Sputnik VI', 250000000, 8, 2, '2031-01-31 21:13:30'),
     ( 3, 'Falcon Renewed', 100000000, 16, 4, '2033-10-25 02:45:56')
  ;
- 
- INSERT INTO forscher(forscher.forscher_id, forscher.vorname, forscher.nachname,
-forscher.geburtsdatum, forscher.berufung, forscher.ankunft_rakete_fk)
+
+INSERT INTO forscher(forscher.forscher_id, forscher.vorname, forscher.nachname,
+                     forscher.geburtsdatum, forscher.berufung, forscher.ankunft_rakete_fk)
 VALUES
 (1, 'Sascha', 'Smith', '1990-04-25', 'Landwirtschaft', 1),
 (2, 'Kyle', 'Müller', '1988-12-12', 'Elektromechaniker', 1),
@@ -78,9 +78,7 @@ insert into fahrzeug (name, max_passagiere, ps) values
 ('Elektrischer Rasenmäher', 1, 20),
 ('Ingenioutier', 4, 500),
 ('Trabbi 2', 5, 100);
-select * from fahrzeug;
 
-select * from forscher;
 
 insert into expedition (startzeit, endzeit) values
 ('2030-09-13T11:15:00', '2030-09-13T19:49:00'),
@@ -88,7 +86,6 @@ insert into expedition (startzeit, endzeit) values
 ('2030-09-20T07:00:00', '2030-09-20T09:11:00'),
 ('2030-09-24T12:30:00', '2030-12-13T12:00:00'),
 ('2030-10-13T11:15:00', '2030-10-14T19:49:00');
-select * from expedition;
 
 insert into logbuch_eintrag (zeit, inhalt, expedition_fk) values
 ('2030-09-13T18:00', 'Toller Tag, tolle Aussicht, 10/10 would recommend - aber jetzt erstmal zurück fahren und essen', 1),
@@ -101,14 +98,16 @@ insert into logbuch_eintrag (zeit, inhalt, expedition_fk) values
 ('2030-09-13T18:00', 'Ich schreibe doch kein Logbuch hä', 4),
 ('2030-09-13T18:00', 'Seh ich aus wie Göthe oder was?', 4),
 ('2030-10-13T12:00', 'Wir haben draußen ein Solarpanel repariert', 5);
-select * from logbuch_eintrag;
 
 insert into forscher_auf_expedition (expedition_fk, forscher_fk, fahrzeug_fk) values
-(1, 4, 4),
-(1, 1, 4),
-(1, 2, 4),
-(1, 3, 4),
+(1, 4, 2),
+(1, 1, 2),
+(1, 2, 1),
+(1, 3, 1),
 (2, 1, 3),
 (3, 3, 1),
-(4, 2, 4),
+(4, 2, 3),
 (5, 4, 2);
+
+insert into forscher_auf_expedition (expedition_fk, forscher_fk, fahrzeug_fk) values
+(1, 10, 2);

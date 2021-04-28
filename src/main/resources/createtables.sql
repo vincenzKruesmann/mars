@@ -49,33 +49,43 @@ create or replace table feld(
 create or replace table anbau(
                                  anbau_id int primary key auto_increment,
                                  zeitpunkt datetime,
-                                 forscher_fk int references forscher,
-                                 feld_fk int references feld
+                                 forscher_fk int,
+                                 feld_fk int,
+                                 constraint foreign key (forscher_fk) references forscher(forscher_id),
+                                 constraint foreign key (feld_fk) references feld(feld_id)
 );
 create or replace table ernte(
                                  ernte_id int primary key auto_increment,
                                  zeitpunkt datetime,
-                                 feld_fk int references feld,
-                                 forscher_fk int references forscher
+                                 feld_fk int,
+                                 forscher_fk int,
+                                 constraint foreign key (forscher_fk) references forscher(forscher_id),
+                                 constraint foreign key (feld_fk) references feld(feld_id)
 );
 create or replace table essen(
                                  essen_id int primary key auto_increment,
                                  name text,
                                  kalorien int,
                                  gewicht float,
-                                 ernte_fk int references ernte,
-                                 rakete_fk int references rakete,
+                                 ernte_fk int,
+                                 rakete_fk int,
+                                 constraint foreign key (ernte_fk) references ernte(ernte_id),
+                                 constraint foreign key (rakete_fk) references rakete(rakete_id),
                                  constraint ernte_oder_rakete check ( ernte_fk is not null or rakete_fk is not null )
 );
 create or replace table essen_anbau(
                                        essen_anbau_id int primary key auto_increment,
                                        gewicht float,
-                                       anbau_fk int references anbau,
-                                       essen_fk int references essen
+                                       anbau_fk int,
+                                       essen_fk int,
+                                       constraint foreign key (essen_fk) references essen(essen_id),
+                                       constraint foreign key (anbau_fk) references anbau(anbau_id)
 );
 create or replace table essen_forscher(
                                           essen_forscher_id int primary key auto_increment,
                                           gewicht float,
-                                          forscher_fk int references forscher,
-                                          essen_fk int references essen
+                                          forscher_fk int,
+                                          essen_fk int,
+                                          constraint foreign key (essen_fk) references essen(essen_id),
+                                          constraint foreign key (forscher_fk) references forscher(forscher_id)
 );
